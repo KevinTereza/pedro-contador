@@ -38,11 +38,11 @@
         </div>
     </section>
 
-    <section class="section-services">
+    <section class="section-services" id="servicos">
         <h2 class="section-services__title font-weight-bold">Serviços</h2>
         <div class="card-container">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/consul 1.svg" alt="Consultoria Fiscal">
+                <img class="card-img-top" src="../assets/img/consul 1.svg" alt="Consultoria Fiscal">
                 <div class="card-body">
                     <h5 class="card-title">Consultoria Fiscal</h5>
                     <p class="card-text">Orientação sobre impostos, deduções e planejamento fiscal para otimizar seus recursos.</p>
@@ -73,6 +73,23 @@
                     <a href="#" class="btn btn-info">Saiba Mais</a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="section-contact" id="contato">
+        <h2 class="section-contact__title">Contato</h2>
+        <p class="section-contact__text d-none d-lg-block">Tem dúvidas? Entre em contato e<br>esclareça suas questões contábeis. Estou aqui para ajudar!</p>
+        <p class="section-contact__text d-block d-lg-none">Tem alguma dúvida?<br>Entre em contato!</p>
+        <div class="section-contact-form-container">
+            <form class="section-contact-form" action="#">
+                <label class="form__label" for="name">NOME<span class="form__label --detail">*</span></label>
+                <input class="form__input" type="text" id="name" required>
+                <label class="form__label" for="email">EMAIL<span class="form__label --detail">*</span></label>
+                <input class="form__input" type="email" id="email" required>
+                <label class="form__label" for="textarea">MENSAGEM<span class="form__label --detail">*</span></label>
+                <textarea class="form__textarea" id="textarea" required></textarea>
+                <button type="submit" class="btn btn-primary">ENVIAR</button>
+            </form>
         </div>
     </section>
 
